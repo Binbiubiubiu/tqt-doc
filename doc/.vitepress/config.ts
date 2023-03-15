@@ -34,7 +34,7 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/Binbiubiubiu/tqtjs" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/Binbiubiubiu/tqt" }],
   },
   ignoreDeadLinks: true,
 });
