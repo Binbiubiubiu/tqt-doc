@@ -4,11 +4,11 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/tqt-doc/",
   title: "TQT",
-  description: "tb-mini & qn-mini & taro",
+  description: "淘宝小程序 & 千牛PC & taro",
   themeConfig: {
     algolia: {
-      appId: "WVDAY74UVI",
-      apiKey: "9e1b563d86045011d9be1f98135dc356",
+      appId: "QNDUNPRL0J",
+      apiKey: "1c8369d6a607d6d31ee2e666613a7300",
       indexName: "tqt",
     },
     // https://vitepress.dev/reference/default-theme-config
