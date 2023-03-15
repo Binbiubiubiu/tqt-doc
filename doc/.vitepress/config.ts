@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/tqt-doc/",
   title: "TQT",
   description: "tb-mini & qn-mini & taro",
   themeConfig: {
