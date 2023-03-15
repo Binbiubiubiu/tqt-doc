@@ -2,8 +2,11 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: TQT
+titleTemplate: Taro & 千牛PC & 淘宝小程序
+
 hero:
-  name: 'TQT'
+  name: TQT
   text: "Taro &\n千牛PC &\n淘宝小程序"
   tagline: 淘宝和千牛PC的taro平台扩展插件
   actions:

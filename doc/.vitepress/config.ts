@@ -5,6 +5,8 @@ export default defineConfig({
   base: "/tqt-doc/",
   title: "TQT",
   description: "淘宝小程序 & 千牛PC & taro",
+  lastUpdated: true,
+  cleanUrls: true,
   themeConfig: {
     algolia: {
       appId: "QNDUNPRL0J",
