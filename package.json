@@ -1,18 +1,43 @@
 {
   "name": "tqt-doc",
   "version": "1.0.0",
-  "description": "",
-  "private":true,
+  "private": true,
   "main": "",
   "scripts": {
+    "lint": "rome ci .",
+    "format": "rome format --write . && prettier --write .",
     "docs:dev": "vitepress dev doc",
     "docs:build": "vitepress build doc",
-    "docs:preview": "vitepress preview doc"
+    "docs:preview": "vitepress preview doc",
+    "prepare": "is-ci || husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "rome check",
+      "rome format --write"
+    ],
+    "*.{json,md,yaml}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.60"
+    "vitepress": "1.0.0-alpha.60",
+    "prettier": "^2.8.4",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^13.1.2",
+    "rome": "^11.0.0"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binbiubiubiu/tqt-doc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Binbiubiubiu/tqt-doc/issues"
+  },
+  "homepage": "https://github.com/Binbiubiubiu/tqt-doc#readme",
+  "description": ""
 }

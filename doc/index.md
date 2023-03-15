@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "TQT"
+  name: 'TQT'
   text: "Taro &\n千牛PC &\n淘宝小程序"
   tagline: 淘宝和千牛PC的taro平台扩展插件
   actions:

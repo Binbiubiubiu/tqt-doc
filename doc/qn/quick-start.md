@@ -38,7 +38,7 @@ const pluginOptions = {
 // Taro 项目配置
 module.exports = {
   // ...
-  plugins: [["@tqtjs/taro-plugin-platform-qn", pluginOptions]],
+  plugins: [['@tqtjs/taro-plugin-platform-qn', pluginOptions]],
 };
 ```
 
@@ -54,7 +54,7 @@ taro build --type qn --watch
 ### 平台判断
 
 ```js
-if (process.TARO_ENV === "qn") {
+if (process.TARO_ENV === 'qn') {
   // ...
 }
 ```
@@ -77,30 +77,20 @@ Taro.qn.navigateToWebPage({}).then((res) => console.log(res));
 /// <reference types="@tqtjs/taro-plugin-platform-qn/shims-qn" />
 /// <reference types="@tarojs/taro" />
 
-declare module "*.png";
-declare module "*.gif";
-declare module "*.jpg";
-declare module "*.jpeg";
-declare module "*.svg";
-declare module "*.css";
-declare module "*.less";
-declare module "*.scss";
-declare module "*.sass";
-declare module "*.styl";
+declare module '*.png';
+declare module '*.gif';
+declare module '*.jpg';
+declare module '*.jpeg';
+declare module '*.svg';
+declare module '*.css';
+declare module '*.less';
+declare module '*.scss';
+declare module '*.sass';
+declare module '*.styl';
 
 declare namespace NodeJS {
   interface ProcessEnv {
-    TARO_ENV:
-      | "weapp"
-      | "swan"
-      | "alipay"
-      | "h5"
-      | "rn"
-      | "tt"
-      | "quickapp"
-      | "qq"
-      | "jd"
-      | "qn";
+    TARO_ENV: 'weapp' | 'swan' | 'alipay' | 'h5' | 'rn' | 'tt' | 'quickapp' | 'qq' | 'jd' | 'qn';
   }
 }
 ```
