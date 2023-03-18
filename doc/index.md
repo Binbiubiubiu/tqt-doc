@@ -12,16 +12,19 @@ hero:
   actions:
     - theme: brand
       text: 介绍
-      link: /introduce
+      link: /guide/what-is-tqt
     - theme: alt
       text: 快速开始
-      link: /tb/quick-start
+      link: /guide/quick-start/tb
 
 features:
-  - title: 组件
+  - icon: 📦
+    title: 组件
     details: 适配大多数平台原生组件
-  - title: API
-    details: 支持原生api的promise化,适配Taro部分官方的api
-  - title: 开发
-    details: 支持ts参数和方法提示
+  - icon: 📝
+    title: API
+    details: 兼容三方平台API,支持promise形式调用
+  - icon: 🧑‍💻
+    title: 开发
+    details: 完善的ts类型支持,优化开发体验
 ---

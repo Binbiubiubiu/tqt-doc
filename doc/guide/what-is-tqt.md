@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# 介绍
+# 什么是 TQT
 
 TQT 是 由[淘宝](https://open.taobao.com/)、[千牛](https://open.taobao.com/)和[Taro](https://taro-docs.jd.com/)三者首字母的缩写而来
 
