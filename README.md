@@ -1,8 +1,4 @@
----
-outline: deep
----
-
-# 什么是 Tqt
+# Tqt
 
 Tqt 是 由[淘宝](https://open.taobao.com/)、[千牛](https://open.taobao.com/)和[Taro](https://taro-docs.jd.com/)三者首字母的缩写而来
 

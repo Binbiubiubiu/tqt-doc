@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/tqt-doc/",
   lang: "zh-CN",
-  title: "TQT",
+  title: "Tqt",
   description: "Taro & 千牛PC & 淘宝小程序",
 
   lastUpdated: true,
